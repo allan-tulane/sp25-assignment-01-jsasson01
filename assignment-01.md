@@ -2,7 +2,7 @@
 
 # CMPS 2200 Assignment 1
 
-**Name:**_________________________
+**Name:**__________Joshua Sasson_______________
 
 
 In this assignment, you will learn more about asymptotic notation, parallelism, functional languages, and algorithmic cost models. As in the recitation, some of your answer will go here and some will go in `main.py`. You are welcome to edit this `assignment-01.md` file directly, or print and fill in by hand. If you do the latter, please scan to a file `assignment-01.pdf` and push to your github repository. 
@@ -11,14 +11,14 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
 
 1. (2 pts ea) **Asymptotic notation** (12 pts)
 
-  - 1a. Is $2^{n+1} \in O(2^n)$? Why or why not? 
-.  
-.  
-.  
-.  
+  - 1a. Is $2^{n+1} \in O(2^n)$? Why or why not?
+.  yes because there exists some value of c such that c*2^n > 2^(n+1)
+.  c*2^n = 2^(c+n) 
+.  when c=2
+.  2^n+2 > 2^(n+1)
 . 
   - 1b. Is $2^{2^n} \in O(2^n)$? Why or why not?     
-.  
+.  no it is not since there is no value of c 
 .  
 .  
 .  
